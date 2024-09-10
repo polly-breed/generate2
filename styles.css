@@ -36,5 +36,5 @@ button {
 img {
   width: 50%; /* Each image takes up half the available space */
   height: 100%; /* Images take up the full height of the container */
-  object-fit: cover; /* Maintain image aspect ratio */
+  object-fit: contain; /* Maintain image aspect ratio */
 }
