@@ -3,11 +3,11 @@ const image2 = document.getElementById('image2');
 const generateBtn = document.getElementById('generate-btn');
 
 function generateImages() {
-  const randomImage1 = `https://source.unsplash.com/random/800x600?sig=${Math.floor(Math.random() * 1000)}`;
-  const randomImage2 = `https://source.unsplash.com/random/800x600?sig=${Math.floor(Math.random() * 1000)}`;
-  
+  const randomImage1 = `https://pixabay.com/photos/random/?page=${Math.floor(Math.random() * 100)}`;
+  const randomImage2 = `https://pixabay.com/photos/random/?page=${Math.floor(Math.random() * 100)}`;
   image1.src = randomImage1;
   image2.src = randomImage2;
 }
+
 
 generateBtn.addEventListener('click', generateImages);
