@@ -38,30 +38,3 @@ img {
   height: 100%; /* Images take up the full height of the container */
   object-fit: contain; /* Maintain image aspect ratio */
 }
-
-#timer-section {
-  margin-top: 20px;
-}
-
-#timer-controls {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-}
-
-#timer-controls input {
-  width: 60px;
-  text-align: center;
-  font-size: 16px;
-}
-
-#timer-controls button {
-  font-size: 16px;
-  padding: 5px 10px;
-}
-
-#timer-display {
-  font-size: 36px;
-  margin-top: 10px;
-}
