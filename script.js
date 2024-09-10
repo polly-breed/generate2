@@ -151,9 +151,15 @@ function getRandomImage() {
 }
 
 function generateImages() {
-  // Set the src of both images to random images
-  image1.src = getRandomImage();
-  image2.src = getRandomImage();
+  let img1, img2;
+  
+  do {
+    img1 = getRandomImage();
+    img2 = getRandomImage();
+  } while (img1 === img2);
+  
+  image1.src = img1;
+  image2.src = img2;
 }
 
 generateBtn.addEventListener('click', generateImages);
